@@ -1,14 +1,63 @@
-
+header {
+	height: 70px;
+	font-size: 35px;
+}
 .no-padding-margin {
 	margin: 0;
 	padding: 0;
 }
 
+.position-fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+} 
+
+.position-footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
 .liste-no-style {
 	list-style: none;
+}
+.flex-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.flex-base {
+	background-color: #5897E8;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.full-height {
+	height: 100%;
+}
+.full-width {
+	width: 100%;
+}
+
+.menu-buttons>li>a {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .menu-buttons>li>a {
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: color 0.5s ease;
 }
+
+.menu-buttons>li>a:hover {
+	color: red;
+}
+
+
