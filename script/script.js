@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('.menu-button>li>a').on('click', function (e) {
-    	debugger;
         e.preventDefault();
         $(document).off("scroll");
       console.log('click');
